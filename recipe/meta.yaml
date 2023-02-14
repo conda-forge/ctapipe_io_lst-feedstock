@@ -1,5 +1,5 @@
 {% set name = "ctapipe_io_lst" %}
-{% set version = "0.19.0" %}
+{% set version = "0.20.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ctapipe_io_lst-{{ version }}.tar.gz
-  sha256: 18c0bb2784d6b5c3e934a58eb96f94251f9317de0708a8dce7c0edfc8c4f710c
+  sha256: fc18152a7b8e022c84e5b59ed5b3949449601f707a4b39eb24565eff85b264de
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - astropy >=5.2,<6.dev0
-    - ctapipe >=0.17.0,<0.18.dev0
+    - ctapipe >=0.17.0,<0.19.0.dev0
     - protozfits >=2.0,<3.dev0
     - numpy >=1.20
 
@@ -35,7 +35,7 @@ test:
     - python -c "from ctapipe_io_lst import __version__; print(__version__)" | grep -v 0.0.0
     # check our event source is findable by ctapipe
     - python -c 'from ctapipe.io import EventSource; print(EventSource.non_abstract_subclasses())' | grep LSTEventSource
-    
+
   requires:
     - pip
 
