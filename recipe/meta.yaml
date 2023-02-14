@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - astropy >=5.2,<6.dev0
-    - ctapipe >=0.17.0,<0.18.dev0
+    - ctapipe >=0.17.0,<0.19.0.dev0
     - protozfits >=2.0,<3.dev0
     - numpy >=1.20
 
