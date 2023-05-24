@@ -1,11 +1,11 @@
-About ctapipe_io_lst
-====================
+About ctapipe_io_lst-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ctapipe_io_lst-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/ctapipe-io-lst/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ctapipe_io_lst-feedstock/blob/main/LICENSE.txt)
 
 Summary: ctapipe plugin for reading LST prototype files
 
