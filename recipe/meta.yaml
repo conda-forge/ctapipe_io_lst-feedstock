@@ -1,5 +1,5 @@
 {% set name = "ctapipe_io_lst" %}
-{% set version = "0.22.3" %}
+{% set version = "0.22.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ctapipe_io_lst-{{ version }}.tar.gz
-  sha256: 8590c886e2f99ecbd429a3f5b45a697c79357677b8f8d22361ba26f4964054f8
+  sha256: 322e756d4b9397476b9d7e96ac8a784e3be1bb890a9ce3372a42273504860ee7
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - astropy >=5.2,<6.dev0
-    - ctapipe >=0.19.0,<0.20.0.dev0
+    - ctapipe >=0.19.0,<0.21.0.dev0
     - protozfits >=2.2,<3.dev0
     - numpy >=1.20
 
