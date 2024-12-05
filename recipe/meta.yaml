@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -23,7 +23,7 @@ requirements:
     - setuptools_scm
   run:
     - python >={{ python_min }}
-    - astropy >=5.2,<7.dev0
+    - astropy-base >=5.2,<7.dev0
     - ctapipe >=0.19.0,<0.23.0.dev0
     - protozfits >=2.4,<3.dev0
     - numpy >=1.20
