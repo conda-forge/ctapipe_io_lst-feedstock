@@ -1,6 +1,6 @@
 {% set name = "ctapipe_io_lst" %}
 {% set version = "0.26.1" %}
-{% set python_min = "3.9" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}.*
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
