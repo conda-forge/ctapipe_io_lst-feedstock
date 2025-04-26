@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-ctapipe_io_lst-green.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ctapipe_io_lst.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ctapipe_io_lst.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ctapipe_io_lst.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ctapipe__io__lst-green.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ctapipe_io_lst.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ctapipe_io_lst.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ctapipe_io_lst.svg)](https://anaconda.org/conda-forge/ctapipe_io_lst) |
 
 Installing ctapipe_io_lst
 =========================
