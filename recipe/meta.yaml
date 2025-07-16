@@ -1,5 +1,5 @@
 {% set name = "ctapipe_io_lst" %}
-{% set version = "0.27.1" %}
+{% set version = "0.27.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ctapipe_io_lst-{{ version }}.tar.gz
-  sha256: 278921cb6d9719879f77c9c6cd7a32322a278e539183f44cf4b0b39b097fb9c6
+  sha256: 591a1d9e2b4ca9d21c8d004f52e3a9a51d451b8de2945621fbb3626cf05696c7
 
 build:
   noarch: python
