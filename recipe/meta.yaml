@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - astropy-base >=5.2,<8.0.0.dev0
-    - ctapipe >=0.23.2,<0.27.0.dev0
+    - ctapipe >=0.23.2,<0.31.0.dev0
     - protozfits >=2.6,<3.dev0
     - numpy >=1.20
     - scipy
