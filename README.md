@@ -191,6 +191,3 @@ Feedstock Maintainers
 * [@maxnoe](https://github.com/maxnoe/)
 * [@moralejo](https://github.com/moralejo/)
 
-
-<!-- dummy commit to enable rerendering -->
-
